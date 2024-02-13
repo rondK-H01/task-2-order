@@ -219,3 +219,56 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Mobile version below */
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 20rem;
+    }
+
+    .order-content {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .order-content h1 {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .plan-container {
+        padding: 1rem;
+    }
+
+    .plan-container a {
+        font-size: 12px;
+    }
+
+    .plan-details {
+        gap: 0;
+    }
+
+    .plan-name {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .proceed-button {
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .cancel-button {
+        margin-bottom: 0.5rem;
+    }
+
+    .attribution {
+        bottom: 1rem;
+    }
+}
